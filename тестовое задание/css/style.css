@@ -99,6 +99,10 @@ body {
     margin-top: 4px;
 }
 
+.input {
+    display: none;
+}
+
 .main__name {
     color: #000;
     font-size: 23px;
@@ -115,7 +119,7 @@ body {
 }
 
 .data__row {
-margin-bottom: 9px ;
+margin-bottom: 9px;
 }
 
 .data__label {
@@ -217,3 +221,5 @@ margin-bottom: 9px ;
     font-style: italic;
     margin-top: 12px;
 }
+
+

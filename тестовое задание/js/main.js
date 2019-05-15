@@ -1,6 +1,29 @@
 window.onload = function() {
+
+    let pageData = {
+        name: '',
+        city: '',
+        isMaried: '',
+        phone: '',
+        email: '',
+    }
+
     let tabs = document.querySelectorAll('.menu .menu__tab');
     let pages = document.querySelectorAll('.pages .page');
+    let inputs = document.querySelectorAll('.pages .input');
+    let values = document.querySelectorAll('.pages .info__value');
+    let pageData = {
+        name: '',
+        city: '',
+        isMaried: '',
+        phone: '',
+        email: '',
+    }
+
+    
+
+
+    console.log(inputs, values)
 
     //переключение между табами
     tabs[0].onclick = function() {
@@ -20,4 +43,7 @@ window.onload = function() {
         pages[0].style.display = 'none';
         pages[1].style.display = 'block';
     }
+
+    //инпуты
+
 }
